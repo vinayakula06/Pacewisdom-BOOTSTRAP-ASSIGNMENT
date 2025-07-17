@@ -1,4 +1,4 @@
-```
+
 Pacewisdom-Bootstrap-Assignment
 
 This repository contains a Bootstrap-based portfolio website.
@@ -33,5 +33,3 @@ To demonstrate the use of Bootstrap 5 for creating a responsive, modern web page
 2.  **Deployed:** Access the Bootstrap Assignment directly via the Netlify link provided above.
 
 **Note:** The `` script at the end of the `<body>` is for local development purposes (live reloading) and does not affect the functionality of the deployed site.
-
----
