@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhotoPulse Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: rgb(255, 0, 0);
+      padding: 100px 20px;
+      text-align: left;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .section-title {
+      text-align: center;
+      margin: 60px 0 30px;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">PhotoPulse</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- New content section just below the navbar -->
+<section class="container text-center my-5">
+  <h2 class="fw-bold">Welcome to My World of Photography</h2>
+  <p class="lead">Every picture tells a story. I’m passionate about capturing emotions, places, and people through the lens — making memories last forever.</p>
+</section>
+
+<section class="hero">
+  <div class="container">
+    <h1>Welcome to PhotoPulse</h1>
+    <p class="lead">Capturing moments through my lens</p>
+    <a href="#portfolio" class="btn btn-primary btn-lg mt-3">View Portfolio</a>
+  </div>
+</section>
+
+<section id="portfolio" class="container">
+  <h2 class="section-title">My Photography Experience</h2>
+  <div class="row text-center">
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" class="card-img-top" alt="Portrait">
+        <div class="card-body">
+          <h5 class="card-title">Portraits</h5>
+          <p class="card-text">Capturing emotions, expressions, and personalities in the most authentic way.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" class="card-img-top" alt="Travel">
+        <div class="card-body">
+          <h5 class="card-title">Travel</h5>
+          <p class="card-text">Telling stories of cities, landscapes, and cultures from around the world.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" class="card-img-top" alt="Events">
+        <div class="card-body">
+          <h5 class="card-title">Events</h5>
+          <p class="card-text">Capturing unforgettable moments at weddings, concerts, and celebrations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="container text-center">
+  <h2 class="section-title">Gallery</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2" class="img-fluid rounded" alt="Gallery 1">
+    </div>
+  <div class="col-md-4 mb-4">
+      <img src="https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" class="img-fluid rounded" alt="Gallery 2">
+    </div>
+    <div class="col-md-4 mb-4">
+      <img src="https://imgs.search.brave.com/sPfgaw3eFr6jB4RByeqnl8HmDps_97gN247yIHtq_6A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MTAxNDY3NTg0Mjgt/ZTVlNGIxN2I4YjZh/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjEuMCZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE1UUjhmR3h2/ZEhNbE1qQnZaaVV5/TUhCbGIzQnNaWHhs/Ym53d2ZId3dmSHg4/TUE9PQ" class="img-fluid rounded" alt="Gallery 3">
+    </div>
+</section>
+
+<section id="contact" class="container my-5">
+  <h2 class="section-title">Contact Me</h2>
+  <form>
+    <div class="row mb-3">
+      <div class="col-md-6"><input type="text" class="form-control" placeholder="Your Name"></div>
+      <div class="col-md-6"><input type="email" class="form-control" placeholder="Your Email"></div>
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-success">Send Message</button>
+    </div>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 PhotoPulse. Captured with ❤️ by vinay.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
